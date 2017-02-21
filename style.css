@@ -1,0 +1,58 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	width: 300px;
+	height: 225px;
+}
+
+.row{
+	width: 100%;
+}
+
+.first, .second, .third{
+	float: left;
+	width: 31.333%;
+	position: relative;
+	margin-top: 20px;
+
+}
+
+.second, .third{
+	margin-left: 10px;
+}
+
+
+.dateTime{
+	position: absolute;
+	left: auto;
+	top: 0;
+	width: 40px;
+}
+
+.dateTime>div:first-child{
+	background:lightblue; 
+	height:46px;
+}
+
+.dateTime>div:last-child{
+	background: darkgray;
+	height: 22px;
+}
+
+h1{
+	font-family: sans-serif;
+	color: tomato;
+}
+
+.socialButtons div{
+	float: left;
+	margin-left: 30px;
+}
+.socialButtons {
+	height: 30px;
+	vertical-align: middle;
+	background-color: lightgray;
+	width: 300px;
+}
